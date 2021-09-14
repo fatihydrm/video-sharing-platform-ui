@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
+:root {
+  --body-font: "Manrope", sans-serif;
+  --body-color: #b3b3b3;
+  --body-bg-color: #f2f2f2;
+  --theme-bg-color: #fafafa;
+  --border-color: #efefef;
+  --logo-color: #f13a2f;
+  --main-color: #808080;
+  --header-bg-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+  background: var(--body-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-app {
+  width: 1400px;
+  max-width: 1400px;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  background: var(--header-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.header .search, .header .person, .header .menu {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  align-items: center;
+}
+
+.header .search {
+  justify-content: space-between;
+}
+
+.header .search .hamburger {
+  cursor: pointer;
+}
+
+.header .search .hamburger svg {
+  color: var(--body-color);
+}
+
+.header .search .logo {
+  margin-left: 25px;
+  width: 34px;
+  height: 34px;
+  border: 5px solid var(--logo-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.header .search .search-bar {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 20px;
+}
+
+.header .search .search-bar ion-icon {
+  font-size: 19px;
+  color: #ccc;
+}
+
+.header .search .search-bar input[type="text"] {
+  height: 100%;
+  color: var(--main-color);
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.header .search .search-bar input[type="text"]::placeholder {
+  color: #bbb;
+}
+
+.header .menu {
+  justify-content: end;
+  align-items: center;
+  user-select: none;
+}
+
+.header .menu .menu-item {
+  margin: 0 20px 0 0;
+  font-weight: 500;
+  color: var(--body-color);
+  cursor: pointer;
+  position: relative;
+}
+
+.header .menu .menu-item:first-child {
+  color: red;
+}
+
+.header .menu .menu-item:last-child::after {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+  background: red;
+  position: absolute;
+  right: -7px;
+  top: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.header .menu .menu-item:hover {
+  color: red;
+}
+
+.header .person {
+  justify-content: end;
+}
+
+.header .person .upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--body-color);
+  padding: 8px 16px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border: 2px solid var(--border-color);
+  font-weight: 500;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header .person .upload ion-icon {
+  margin-right: 4px;
+  font-size: 20px;
+}
+
+.header .person img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.header .person i:first-of-type {
+  font-size: 20px;
+  color: var(--body-color);
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header .person i:last-of-type {
+  font-size: 16px;
+  color: var(--body-color);
+  margin-left: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
