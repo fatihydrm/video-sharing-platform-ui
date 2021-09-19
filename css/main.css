@@ -195,4 +195,173 @@ body {
   margin-left: 20px;
   cursor: pointer;
 }
+
+.container {
+  width: 100%;
+  height: calc(100vh - 90px);
+  display: flex;
+}
+
+.container .left-side {
+  width: 270px;
+  height: 100%;
+  background: var(--theme-bg-color);
+  overflow: auto;
+}
+
+.container .left-side .home {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+  border-bottom: 1px solid var(--body-bg-color);
+}
+
+.container .left-side .home ul {
+  width: 100%;
+}
+
+.container .left-side .home ul li {
+  width: 100%;
+}
+
+.container .left-side .home ul li a {
+  display: flex;
+  color: var(--main-color);
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.container .left-side .home ul li a .span {
+  color: red;
+  color: var(--main-color);
+}
+
+.container .left-side .home ul li a svg {
+  width: 22px;
+  color: var(--body-color);
+  margin-right: 20px;
+}
+
+.container .left-side .subscribe {
+  display: flex;
+  padding: 20px 20px 0 20px;
+  border-bottom: 1px solid var(--body-bg-color);
+  flex-direction: column;
+}
+
+.container .left-side .subscribe .title {
+  color: var(--body-color);
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.container .left-side .subscribe .button {
+  text-align: center;
+  width: 120px;
+  border: 2px solid var(--border-color);
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--body-color);
+  border-radius: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.container .left-side .subscribe ul {
+  width: 100%;
+}
+
+.container .left-side .subscribe ul li {
+  width: 100%;
+}
+
+.container .left-side .subscribe ul li a {
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  cursor: default;
+}
+
+.container .left-side .subscribe ul li a span {
+  color: var(--main-color);
+  cursor: text;
+  user-select: text;
+}
+
+.container .left-side .subscribe ul li a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 16px;
+}
+
+.container .left-side .popular {
+  display: flex;
+  padding: 20px 20px 0 20px;
+  border-bottom: 1px solid var(--body-bg-color);
+  flex-direction: column;
+}
+
+.container .left-side .popular .title {
+  color: var(--body-color);
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.container .left-side .popular .button {
+  text-align: center;
+  width: 120px;
+  border: 2px solid var(--border-color);
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--body-color);
+  border-radius: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.container .left-side .popular ul {
+  width: 100%;
+}
+
+.container .left-side .popular ul li {
+  width: 100%;
+}
+
+.container .left-side .popular ul li a {
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.container .left-side .popular ul li a span {
+  color: var(--main-color);
+}
+
+.container .left-side .popular ul li a svg {
+  width: 22px;
+  fill: var(--body-color);
+  margin-right: 20px;
+}
+
+.container .content {
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  background: var(--theme-bg-color);
+}
 /*# sourceMappingURL=main.css.map */
