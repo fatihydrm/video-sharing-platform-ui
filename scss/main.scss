@@ -351,6 +351,7 @@ body{
           display: flex;
           align-items: center;
           font-weight: bold;
+          white-space: nowrap;
           img{
             width: 40px;
             height: 40px;
@@ -402,6 +403,36 @@ body{
            }
           }
         }
+      }
+      .banner-info{
+        width: 100%;
+        height: 70px;
+        background: rgba(0, 0, 0, .3);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .banner-info-items{
+          display: flex;
+          align-items: center;
+          color: #fff;
+          padding: 26px 16px;
+          white-space: nowrap;
+          text-align: center;
+          svg{
+            width: 22px;
+            height: 22px;
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+    .trends{
+      width: 100%;
+      height: 20px;
+      svg{
+        width: 20px;
       }
     }
   }
