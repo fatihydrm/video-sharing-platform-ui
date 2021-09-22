@@ -363,6 +363,7 @@ body {
   height: 100%;
   padding: 24px;
   background: var(--theme-bg-color);
+  overflow: auto;
 }
 
 .container .content .banner {
@@ -572,5 +573,12 @@ body {
 
 .container .content .trends .play-all span {
   white-space: nowrap;
+}
+
+.container .content .videos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 /*# sourceMappingURL=main.css.map */
